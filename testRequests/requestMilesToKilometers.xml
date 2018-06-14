@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ns1="http://adammlynarczyk.xyz/webservice"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns1:getMilesToKilometersRequest>
+            <ns1:miles>1</ns1:miles>
+        </ns1:getMilesToKilometersRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+

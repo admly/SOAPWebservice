@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ns1="http://adammlynarczyk.xyz/webservice"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns1:getMetersToInchesRequest>
+            <ns1:meters>1</ns1:meters>
+        </ns1:getMetersToInchesRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+

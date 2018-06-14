@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ns1="http://adammlynarczyk.xyz/exchange"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns1:getPlnToUsdRequest>
+            <ns1:pln>1</ns1:pln>
+        </ns1:getPlnToUsdRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+

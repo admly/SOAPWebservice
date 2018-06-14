@@ -1,0 +1,115 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://adammlynarczyk.xyz/webservice"
+           targetNamespace="http://adammlynarczyk.xyz/webservice" elementFormDefault="qualified">
+
+
+
+    <xs:element name="getCentimetersToMetersRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="centimeters" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getCentimetersToMetersResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="meters" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+
+    <xs:element name="getMetersToCentimetersRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="meters" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getMetersToCentimetersResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="centimeters" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:element name="getKilometersToMilesRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="kilometers" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getKilometersToMilesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="miles" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:element name="getMilesToKilometersRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="miles" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getMilesToKilometersResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="kilometers" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:element name="getInchesToMetersRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="inches" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getInchesToMetersResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="meters" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:element name="getMetersToInchesRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="meters" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getMetersToInchesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="inches" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+</xs:schema>

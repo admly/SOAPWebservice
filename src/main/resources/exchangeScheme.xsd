@@ -1,0 +1,115 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://adammlynarczyk.xyz/exchange"
+           targetNamespace="http://adammlynarczyk.xyz/exchange" elementFormDefault="qualified">
+
+
+
+    <xs:element name="getPlnToUsdRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pln" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getPlnToUsdResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="usd" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+
+    <xs:element name="getUsdToPlnRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="usd" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getUsdToPlnResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pln" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:element name="getEuroToPlnRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="euro" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getEuroToPlnResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pln" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:element name="getPlnToEuroRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pln" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getPlnToEuroResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="euro" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:element name="getPoundsToPlnRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pounds" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getPoundsToPlnResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pln" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:element name="getPlnToPoundsRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pln" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getPlnToPoundsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pounds" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+</xs:schema>
